@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "beyno";
+  src: url(../../fonts/BEYNO.otf);
+}
+@font-face {
+  font-family: "cantarell";
+  src: url(../../fonts/Cantarell-Bold.ttf), url(../../fonts/Cantarell-BoldItalic.ttf), url(../../fonts/Cantarell-Italic.ttf), url(../../fonts/Cantarell-Regular.ttf);
+}
+@font-face {
+  font-family: "panthera";
+  src: url(../../fonts/Panthera.ttf);
+}
+@font-face {
+  font-family: "wakanda forever";
+  src: url(../../fonts/WakandaForever.ttf);
+}/*# sourceMappingURL=main.css.map */
