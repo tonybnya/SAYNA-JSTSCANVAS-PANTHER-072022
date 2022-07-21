@@ -1,0 +1,31 @@
+.bars {
+  position: fixed;
+  top: 0;
+  left: 100px;
+  height: 50vh;
+  .bar {
+    position: absolute;
+    border-right: 2px solid $color-snuff;
+  }
+  .one {
+    height: 100%;
+  }
+  .two {
+    height: 70%;
+    right: 0;
+  }
+  // Top Left Bars
+  .social-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 70%;
+    // transform: translateY(-50%, -50%);
+    left: 10px;
+    img {
+      margin-top: 10px;
+      width: 100%;
+    }
+  }
+}

@@ -1,7 +1,37 @@
+@font-face {
+  font-family: "beyno";
+  src: url(../../fonts/BEYNO.otf);
+}
+@font-face {
+  font-family: "cantarell";
+  src: url(../../fonts/Cantarell-Bold.ttf), url(../../fonts/Cantarell-BoldItalic.ttf), url(../../fonts/Cantarell-Italic.ttf), url(../../fonts/Cantarell-Regular.ttf);
+}
+@font-face {
+  font-family: "panthera";
+  src: url(../../fonts/Panthera.ttf);
+}
+@font-face {
+  font-family: "wakanda forever";
+  src: url(../../fonts/WakandaForever.ttf);
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body {
+  background: radial-gradient(126.67% 350.28% at -21.35% 0%, #11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64, 0.837641) 94.57%, rgba(2, 23, 64, 0) 100%);
+  color: white;
+}
+
+footer {
+  background: linear-gradient(180deg, #3D2DA6 0%, #021740 90.43%);
 }
 
 @font-face {
@@ -19,4 +49,89 @@
 @font-face {
   font-family: "wakanda forever";
   src: url(../../fonts/WakandaForever.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body {
+  background: radial-gradient(126.67% 350.28% at -21.35% 0%, #11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64, 0.837641) 94.57%, rgba(2, 23, 64, 0) 100%);
+  color: white;
+}
+
+footer {
+  background: linear-gradient(180deg, #3D2DA6 0%, #021740 90.43%);
+}
+
+@font-face {
+  font-family: "beyno";
+  src: url(../../fonts/BEYNO.otf);
+}
+@font-face {
+  font-family: "cantarell";
+  src: url(../../fonts/Cantarell-Bold.ttf), url(../../fonts/Cantarell-BoldItalic.ttf), url(../../fonts/Cantarell-Italic.ttf), url(../../fonts/Cantarell-Regular.ttf);
+}
+@font-face {
+  font-family: "panthera";
+  src: url(../../fonts/Panthera.ttf);
+}
+@font-face {
+  font-family: "wakanda forever";
+  src: url(../../fonts/WakandaForever.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body {
+  background: radial-gradient(126.67% 350.28% at -21.35% 0%, #11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64, 0.837641) 94.57%, rgba(2, 23, 64, 0) 100%);
+  color: white;
+}
+
+footer {
+  background: linear-gradient(180deg, #3D2DA6 0%, #021740 90.43%);
+}
+
+.bars {
+  position: fixed;
+  top: 0;
+  left: 100px;
+  height: 50vh;
+}
+.bars .bar {
+  position: absolute;
+  border-right: 2px solid #F2CEF2;
+}
+.bars .one {
+  height: 100%;
+}
+.bars .two {
+  height: 70%;
+  right: 0;
+}
+.bars .social-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 70%;
+  left: 10px;
+}
+.bars .social-header img {
+  margin-top: 10px;
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
