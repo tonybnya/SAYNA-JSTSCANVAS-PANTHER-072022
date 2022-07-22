@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   left: 100px;
-  height: 50vh;
+  height: 60vh;
   .bar {
     position: absolute;
     border-right: 2px solid $color-snuff;
@@ -11,7 +11,7 @@
     height: 100%;
   }
   .two {
-    height: 70%;
+    height: 75%;
     right: 0;
   }
   // Top Left Bars
@@ -20,12 +20,17 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    top: 70%;
+    top: 75%;
     // transform: translateY(-50%, -50%);
     left: 10px;
     img {
       margin-top: 10px;
       width: 100%;
+      &:hover {
+        transform: scale(1.2);
+        -webkit-filter: brightness(.5);
+        filter: brightness(.5);
+      }
     }
   }
 }

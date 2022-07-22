@@ -1,2 +1,37 @@
 @import '../components/navbar';
 @import '../components/footer';
+
+#hero-wakanda {
+  background-image: url(../img/illustrations_wakanda/Pantherwakanda1.png);
+  background-position: center center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  .content {
+    position: absolute;
+    top: 40%;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    h1,
+    h3 {
+      color: $color-snuff;
+      font-weight: lighter;
+    }
+    h1 {
+      font-family: 'beyno';
+      font-size: 40px;
+    }
+    h3 {
+      font-family: 'wakanda forever';
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-family: 'Cantarell';
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  }
+}

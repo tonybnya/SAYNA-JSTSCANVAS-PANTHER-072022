@@ -4,13 +4,17 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: 'smooth'
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
 }
 
 body {
-  background: $body-bg;
+  background: $body-bg-1;
   color: white;
 }
 
@@ -22,6 +26,6 @@ body {
   }
 }
 
-// %hero {
-//   // c
-// }
+p {
+  text-align: justify;
+}

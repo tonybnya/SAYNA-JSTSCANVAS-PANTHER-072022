@@ -19,6 +19,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: "smooth";
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
@@ -32,6 +36,10 @@ body {
 .logo:hover {
   filter: brightness(0.5);
   transform: scale(1.2);
+}
+
+p {
+  text-align: justify;
 }
 
 nav {
@@ -68,7 +76,122 @@ nav .hamburger {
 }
 
 footer {
+  padding: 10rem 0;
+  font-family: "Cantarell";
   background: linear-gradient(180deg, #3D2DA6 0%, #021740 90.43%);
+}
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer .container .logos {
+  position: relative;
+}
+footer .container .logos .branding {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+footer .container .footer-content .links {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+footer .container .footer-content .links .sitemap ul {
+  list-style: none;
+}
+footer .container .footer-content .links .sitemap ul li {
+  margin-top: 5px;
+}
+footer .container .footer-content .links .sitemap ul li a {
+  color: #FFFFFF;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+footer .container .footer-content .links .sitemap ul li a:hover {
+  color: #DF99F2;
+  transform: scale(1.1);
+}
+footer .container .footer-content .links .social-links .icon {
+  width: 100%;
+}
+footer .container .footer-content .links .social-links .icon img {
+  margin: 0 10px;
+}
+footer .container .footer-content .links .social-links .icon img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+footer .container .footer-content .links h3 {
+  font-size: 22px;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+footer .container .copyright {
+  text-align: center;
+}
+footer .container .copyright p {
+  vertical-align: middle;
+}
+footer .container .copyright p .fa {
+  color: #DF99F2;
+  font-size: 10px;
+}
+
+#hero-index {
+  background-image: url(../img/illustrations/Pantherhome1.png);
+  background-position: center right;
+  background-size: auto;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+#hero-index .content {
+  position: absolute;
+  top: 40%;
+  padding-left: 70px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+#hero-index .content h1,
+#hero-index .content h3 {
+  color: #F2CEF2;
+}
+#hero-index .content h1 {
+  font-family: "panthera";
+  font-size: 60px;
+}
+#hero-index .content h3 {
+  font-family: "beyno";
+  font-size: 35px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+#hero-index .content p {
+  font-family: "Cantarell";
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.btn-more {
+  font-family: "Cantarell";
+  color: #FFFFFF;
+  font-size: 19px;
+}
+.btn-more:hover {
+  text-decoration: none;
+  color: #DF99F2;
+  font-size: 20px;
+}
+
+#slider .content .naming {
+  font-family: "beyno";
+}
+#slider .content .description {
+  font-family: "Cantarell";
 }
 
 @font-face {
@@ -89,6 +212,10 @@ footer {
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: "smooth";
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
@@ -102,6 +229,10 @@ body {
 .logo:hover {
   filter: brightness(0.5);
   transform: scale(1.2);
+}
+
+p {
+  text-align: justify;
 }
 
 nav {
@@ -138,7 +269,104 @@ nav .hamburger {
 }
 
 footer {
+  padding: 10rem 0;
+  font-family: "Cantarell";
   background: linear-gradient(180deg, #3D2DA6 0%, #021740 90.43%);
+}
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer .container .logos {
+  position: relative;
+}
+footer .container .logos .branding {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+footer .container .footer-content .links {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+footer .container .footer-content .links .sitemap ul {
+  list-style: none;
+}
+footer .container .footer-content .links .sitemap ul li {
+  margin-top: 5px;
+}
+footer .container .footer-content .links .sitemap ul li a {
+  color: #FFFFFF;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+footer .container .footer-content .links .sitemap ul li a:hover {
+  color: #DF99F2;
+  transform: scale(1.1);
+}
+footer .container .footer-content .links .social-links .icon {
+  width: 100%;
+}
+footer .container .footer-content .links .social-links .icon img {
+  margin: 0 10px;
+}
+footer .container .footer-content .links .social-links .icon img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+footer .container .footer-content .links h3 {
+  font-size: 22px;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+footer .container .copyright {
+  text-align: center;
+}
+footer .container .copyright p {
+  vertical-align: middle;
+}
+footer .container .copyright p .fa {
+  color: #DF99F2;
+  font-size: 10px;
+}
+
+#hero-wakanda {
+  background-image: url(../img/illustrations_wakanda/Pantherwakanda1.png);
+  background-position: center center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+#hero-wakanda .content {
+  position: absolute;
+  top: 40%;
+  padding-left: 70px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+#hero-wakanda .content h1,
+#hero-wakanda .content h3 {
+  color: #F2CEF2;
+  font-weight: lighter;
+}
+#hero-wakanda .content h1 {
+  font-family: "beyno";
+  font-size: 40px;
+}
+#hero-wakanda .content h3 {
+  font-family: "wakanda forever";
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+#hero-wakanda .content p {
+  font-family: "Cantarell";
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 @font-face {
@@ -159,6 +387,10 @@ footer {
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: "smooth";
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
@@ -172,6 +404,10 @@ body {
 .logo:hover {
   filter: brightness(0.5);
   transform: scale(1.2);
+}
+
+p {
+  text-align: justify;
 }
 
 nav {
@@ -208,14 +444,114 @@ nav .hamburger {
 }
 
 footer {
+  padding: 10rem 0;
+  font-family: "Cantarell";
   background: linear-gradient(180deg, #3D2DA6 0%, #021740 90.43%);
+}
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer .container .logos {
+  position: relative;
+}
+footer .container .logos .branding {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+footer .container .footer-content .links {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+footer .container .footer-content .links .sitemap ul {
+  list-style: none;
+}
+footer .container .footer-content .links .sitemap ul li {
+  margin-top: 5px;
+}
+footer .container .footer-content .links .sitemap ul li a {
+  color: #FFFFFF;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+footer .container .footer-content .links .sitemap ul li a:hover {
+  color: #DF99F2;
+  transform: scale(1.1);
+}
+footer .container .footer-content .links .social-links .icon {
+  width: 100%;
+}
+footer .container .footer-content .links .social-links .icon img {
+  margin: 0 10px;
+}
+footer .container .footer-content .links .social-links .icon img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+footer .container .footer-content .links h3 {
+  font-size: 22px;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+footer .container .copyright {
+  text-align: center;
+}
+footer .container .copyright p {
+  vertical-align: middle;
+}
+footer .container .copyright p .fa {
+  color: #DF99F2;
+  font-size: 10px;
+}
+
+#hero-enigme {
+  background-image: url(../img/illustrations_enigme/Pantherenigme1.png);
+  background-position: center left;
+  background-size: auto;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+#hero-enigme .content {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  right: 10%;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+#hero-enigme .content h1 {
+  font-family: "beyno";
+  color: #F2CEF2;
+  font-size: 50px;
+  font-weight: lighter;
+}
+#hero-enigme .content .presentation {
+  position: relative;
+}
+#hero-enigme .content .presentation .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+#hero-enigme .content .presentation .text p {
+  font-family: "Cantarell";
+  font-size: 15px;
+  margin-bottom: 10px;
 }
 
 .bars {
   position: fixed;
   top: 0;
   left: 100px;
-  height: 50vh;
+  height: 60vh;
 }
 .bars .bar {
   position: absolute;
@@ -225,7 +561,7 @@ footer {
   height: 100%;
 }
 .bars .two {
-  height: 70%;
+  height: 75%;
   right: 0;
 }
 .bars .social-header {
@@ -233,10 +569,14 @@ footer {
   flex-direction: column;
   align-items: center;
   position: relative;
-  top: 70%;
+  top: 75%;
   left: 10px;
 }
 .bars .social-header img {
   margin-top: 10px;
   width: 100%;
+}
+.bars .social-header img:hover {
+  transform: scale(1.2);
+  filter: brightness(0.5);
 }/*# sourceMappingURL=main.css.map */
