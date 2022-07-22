@@ -1,18 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Cantarell&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cantarell&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cantarell&display=swap");
 @font-face {
   font-family: "beyno";
-  src: url(../../fonts/BEYNO.otf);
-}
-@font-face {
-  font-family: "cantarell";
-  src: url(../../fonts/Cantarell-Bold.ttf), url(../../fonts/Cantarell-BoldItalic.ttf), url(../../fonts/Cantarell-Italic.ttf), url(../../fonts/Cantarell-Regular.ttf);
+  src: local("Beyno"), url("../fonts/Beyno.woff") format("woff");
 }
 @font-face {
   font-family: "panthera";
-  src: url(../../fonts/Panthera.ttf);
+  src: url("../fonts/Panthera.woff2") format("woff2"), url("../fonts/Panthera.woff") format("woff");
 }
 @font-face {
   font-family: "wakanda forever";
-  src: url(../../fonts/WakandaForever.ttf);
+  src: url("../fonts/WakandaForever.woff2") format("woff2"), url("../fonts/WakandaForever.woff") format("woff");
 }
 * {
   margin: 0;
@@ -28,6 +27,44 @@
 body {
   background: radial-gradient(126.67% 350.28% at -21.35% 0%, #11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64, 0.837641) 94.57%, rgba(2, 23, 64, 0) 100%);
   color: white;
+}
+
+.logo:hover {
+  filter: brightness(0.5);
+  transform: scale(1.2);
+}
+
+nav {
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: "beyno";
+  font-size: 20px;
+  text-transform: uppercase;
+  display: block;
+  padding: 30px;
+}
+nav ul a:hover {
+  transform: scale(1.1);
+  color: #DF99F2;
+}
+nav ul a.active {
+  text-decoration: underline;
+  color: #F2CEF2;
+}
+nav .hamburger {
+  opacity: 0;
 }
 
 footer {
@@ -36,19 +73,15 @@ footer {
 
 @font-face {
   font-family: "beyno";
-  src: url(../../fonts/BEYNO.otf);
-}
-@font-face {
-  font-family: "cantarell";
-  src: url(../../fonts/Cantarell-Bold.ttf), url(../../fonts/Cantarell-BoldItalic.ttf), url(../../fonts/Cantarell-Italic.ttf), url(../../fonts/Cantarell-Regular.ttf);
+  src: local("Beyno"), url("../fonts/Beyno.woff") format("woff");
 }
 @font-face {
   font-family: "panthera";
-  src: url(../../fonts/Panthera.ttf);
+  src: url("../fonts/Panthera.woff2") format("woff2"), url("../fonts/Panthera.woff") format("woff");
 }
 @font-face {
   font-family: "wakanda forever";
-  src: url(../../fonts/WakandaForever.ttf);
+  src: url("../fonts/WakandaForever.woff2") format("woff2"), url("../fonts/WakandaForever.woff") format("woff");
 }
 * {
   margin: 0;
@@ -64,6 +97,44 @@ footer {
 body {
   background: radial-gradient(126.67% 350.28% at -21.35% 0%, #11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64, 0.837641) 94.57%, rgba(2, 23, 64, 0) 100%);
   color: white;
+}
+
+.logo:hover {
+  filter: brightness(0.5);
+  transform: scale(1.2);
+}
+
+nav {
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: "beyno";
+  font-size: 20px;
+  text-transform: uppercase;
+  display: block;
+  padding: 30px;
+}
+nav ul a:hover {
+  transform: scale(1.1);
+  color: #DF99F2;
+}
+nav ul a.active {
+  text-decoration: underline;
+  color: #F2CEF2;
+}
+nav .hamburger {
+  opacity: 0;
 }
 
 footer {
@@ -72,19 +143,15 @@ footer {
 
 @font-face {
   font-family: "beyno";
-  src: url(../../fonts/BEYNO.otf);
-}
-@font-face {
-  font-family: "cantarell";
-  src: url(../../fonts/Cantarell-Bold.ttf), url(../../fonts/Cantarell-BoldItalic.ttf), url(../../fonts/Cantarell-Italic.ttf), url(../../fonts/Cantarell-Regular.ttf);
+  src: local("Beyno"), url("../fonts/Beyno.woff") format("woff");
 }
 @font-face {
   font-family: "panthera";
-  src: url(../../fonts/Panthera.ttf);
+  src: url("../fonts/Panthera.woff2") format("woff2"), url("../fonts/Panthera.woff") format("woff");
 }
 @font-face {
   font-family: "wakanda forever";
-  src: url(../../fonts/WakandaForever.ttf);
+  src: url("../fonts/WakandaForever.woff2") format("woff2"), url("../fonts/WakandaForever.woff") format("woff");
 }
 * {
   margin: 0;
@@ -100,6 +167,44 @@ footer {
 body {
   background: radial-gradient(126.67% 350.28% at -21.35% 0%, #11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64, 0.837641) 94.57%, rgba(2, 23, 64, 0) 100%);
   color: white;
+}
+
+.logo:hover {
+  filter: brightness(0.5);
+  transform: scale(1.2);
+}
+
+nav {
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: "beyno";
+  font-size: 20px;
+  text-transform: uppercase;
+  display: block;
+  padding: 30px;
+}
+nav ul a:hover {
+  transform: scale(1.1);
+  color: #DF99F2;
+}
+nav ul a.active {
+  text-decoration: underline;
+  color: #F2CEF2;
+}
+nav .hamburger {
+  opacity: 0;
 }
 
 footer {

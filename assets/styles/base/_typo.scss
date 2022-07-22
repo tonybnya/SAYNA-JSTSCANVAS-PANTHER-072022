@@ -1,22 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+
 @font-face {
   font-family: 'beyno';
-  src: url(../../fonts/BEYNO.otf);
+  src: local('Beyno'), url('../fonts/Beyno.woff') format('woff');
 }
-
-@font-face {
-  font-family: 'cantarell';
-  src: url(../../fonts/Cantarell-Bold.ttf),
-  url(../../fonts/Cantarell-BoldItalic.ttf),
-  url(../../fonts/Cantarell-Italic.ttf), 
-  url(../../fonts/Cantarell-Regular.ttf);
-}
-
 @font-face {
   font-family: 'panthera';
-  src: url(../../fonts/Panthera.ttf);
+  src: url('../fonts/Panthera.woff2') format('woff2'),
+       url('../fonts/Panthera.woff') format('woff');
 }
-
 @font-face {
   font-family: 'wakanda forever';
-  src: url(../../fonts/WakandaForever.ttf);
+  src: url('../fonts/WakandaForever.woff2') format('woff2'),
+       url('../fonts/WakandaForever.woff') format('woff');
 }
