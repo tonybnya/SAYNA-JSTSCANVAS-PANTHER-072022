@@ -194,6 +194,67 @@ footer .container .copyright p .fa {
   font-family: "Cantarell";
 }
 
+#contact-form {
+  min-height: 100vh;
+  padding: 60px 0;
+  background-image: url(../img/illustrations/Pantherhome4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#contact-form .form {
+  width: 50%;
+  margin: calc(100vh - 50%) auto;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 200px;
+  background: #F2CEF2;
+  color: #021740;
+  font-family: "Cantarell";
+  width: 60%;
+  opacity: 0.5;
+  margin: 0 auto;
+  border-radius: 150px;
+  text-align: center;
+}
+#contact-form .form h3 {
+  font-size: 1rem;
+}
+#contact-form .form h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+#contact-form .form input,
+#contact-form .form textarea {
+  width: 520px;
+  margin-bottom: 0.5rem;
+  border-radius: 38px;
+}
+#contact-form .form input::-moz-placeholder, #contact-form .form textarea::-moz-placeholder {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+#contact-form .form input:-ms-input-placeholder, #contact-form .form textarea:-ms-input-placeholder {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+#contact-form .form input::placeholder,
+#contact-form .form textarea::placeholder {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+#contact-form .form input {
+  height: 56px;
+}
+#contact-form .form .form-fields .btn {
+  width: 174px;
+  height: 54px;
+}
+#contact-form .form .form-fields .btn:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 20px #021740);
+}
+
 @font-face {
   font-family: "beyno";
   src: local("Beyno"), url("../fonts/Beyno.woff") format("woff");

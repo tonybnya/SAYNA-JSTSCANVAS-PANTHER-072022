@@ -56,3 +56,59 @@
     }
   }
 }
+
+// #prince {}
+
+#contact-form {
+  min-height: 100vh;
+  padding: 60px 0;
+  background-image: url(../img/illustrations/Pantherhome4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .form {
+    width: 50%;
+    margin: calc(100vh - 50%) auto;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 200px;
+    background: $color-snuff;
+    color: $color-midnight-express-1;
+    font-family: 'Cantarell';
+    width: 60%;
+    opacity: 0.5;
+    margin: 0 auto;
+    border-radius: 150px;
+    text-align: center;
+    h3 {
+      font-size: 1rem;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    input,
+    textarea {
+      width: 520px;
+      margin-bottom: .5rem;
+      border-radius: 38px;
+      &::placeholder {
+        padding-top: 20px;
+        padding-left: 20px;
+      }
+    }
+    input {
+      height: 56px;
+    }
+    .form-fields {
+      .btn {
+        width: 174px;
+        height: 54px;
+        &:hover {
+          cursor: pointer;
+          filter: drop-shadow(0 0 20px $color-midnight-express-1);
+        }
+      }
+    }
+  }
+}
