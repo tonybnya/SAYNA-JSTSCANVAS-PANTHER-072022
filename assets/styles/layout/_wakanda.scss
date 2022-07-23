@@ -37,11 +37,19 @@
 }
 
 #biography {
-  background-image: url(../img/illustrations_wakanda/Pantherwakanda2.png);
-  background-position: center top;
-  background-repeat: no-repeat;
-  margin-top: 100px;
+  // background-image: url(../img/illustrations_wakanda/Pantherwakanda2.png);
+  // background-position: center top;
+  // background-repeat: no-repeat;
+  margin-top: 0;
+  margin-bottom: 20px;
   .container {
+    .panther {
+      position: absolute;
+      z-index: -1;
+      img {
+        width: 100%;
+      }
+    }
     display: flex;
     justify-content: space-around;
     .left,
@@ -69,7 +77,8 @@
   }
   .right {
     .poster {
-      text-align: center;
+      text-align: left;
+      z-index: -1;
       img {
         width: 649px;
         height: 362px;

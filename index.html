@@ -78,6 +78,16 @@
       </nav>
     </header>
 
+    <!-- <div id="wrapper-canvas">
+      <canvas id="canvas" width="1000" height="1000">
+        <img
+          src="./assets/img/branding/logo_souris_BP1_blanc.png"
+          alt="batman mouse"
+          id="source"
+        />
+      </canvas>
+    </div> -->
+
     <!-- Hero Section -->
     <section id="hero-index">
       <div class="container">
@@ -91,18 +101,15 @@
             afro-américains. Ce film marque toute une génération, “c’est 100%
             africain et c’est parfait”.
           </p>
-          <a class="btn-more" href="#">Voir plus ></a>
+          <a class="btn-more" href="#target">Voir plus ></a>
         </div>
       </div>
     </section>
 
     <!-- Slider Section -->
     <section id="slider">
-      <div class="content">
-        <div class="arrow btn">
-          <i class="fas fa-chevron-circle-right"></i>
-        </div>
-        <div class="block killmonger">
+      <div class="slider-content">
+        <div class="slide killmonger active">
           <img
             class="personage-img"
             src="./assets/img/illustrations/slider_1_killmonger.png"
@@ -120,7 +127,7 @@
             <a class="btn-more" href="#">Voir plus ></a>
           </div>
         </div>
-        <div class="block okoye">
+        <div class="slide okoye">
           <img
             class="personage-img"
             src="./assets/img/illustrations/slider_2_okoye.png"
@@ -137,7 +144,7 @@
             <a class="btn-more" href="#">Voir plus ></a>
           </div>
         </div>
-        <div class="block shuri">
+        <div class="slide shuri">
           <img
             class="personage-img"
             src="./assets/img/illustrations/slider_3_shuri.png"
@@ -155,7 +162,7 @@
             <a class="btn-more" href="#">Voir plus ></a>
           </div>
         </div>
-        <div class="block nakia">
+        <div class="slide nakia">
           <img
             class="personage-img"
             src="./assets/img/illustrations/slider_4_nakia.png"
@@ -172,7 +179,7 @@
             <a class="btn-more" href="#">Voir plus ></a>
           </div>
         </div>
-        <div class="block ramonda">
+        <div class="slide ramonda">
           <img
             class="personage-img"
             src="./assets/img/illustrations/slider_5_ramonda.png"
@@ -190,7 +197,7 @@
             <a class="btn-more" href="#">Voir plus ></a>
           </div>
         </div>
-        <div class="block wkabi">
+        <div class="slide wkabi">
           <img
             class="personage-img"
             src="./assets/img/illustrations/slider_6_wkabi.png"
@@ -209,7 +216,7 @@
             <a class="btn-more" href="#">Voir plus ></a>
           </div>
         </div>
-        <div class="block mbaku">
+        <div class="slide mbaku">
           <img
             class="personage-img"
             src="./assets/img/illustrations/slider_7_mbaku.png"
@@ -227,7 +234,7 @@
             <a class="btn-more" href="#">Voir plus ></a>
           </div>
         </div>
-        <div class="block zuri">
+        <div class="slide zuri">
           <img
             class="personage-img"
             src="./assets/img/illustrations/slider_8_zuri.png"
@@ -245,7 +252,7 @@
             <a class="btn-more" href="#">Voir plus ></a>
           </div>
         </div>
-        <div class="block everett-kenneth-ross">
+        <div class="slide everett-kenneth-ross">
           <img
             class="personage-img"
             src="./assets/img/illustrations/slider_9_everett_kenneth_ross.png"
@@ -264,7 +271,7 @@
             <a class="btn-more" href="#">Voir plus ></a>
           </div>
         </div>
-        <div class="block ulysse-klaue">
+        <div class="slide ulysse-klaue">
           <img
             class="personage-img"
             src="./assets/img/illustrations/slider_10_ulysse_klaue.png"
@@ -284,6 +291,10 @@
           </div>
         </div>
       </div>
+      <button class="slider-btn">
+        <i class="fas fa-chevron-circle-right"></i>
+        <!-- <i class="fas fa-chevron-circle-right"></i> -->
+      </button>
     </section>
 
     <!-- Prince Section -->
@@ -291,7 +302,7 @@
       <div class="container">
         <div class="story">
           <div class="part">
-            <h3>naissance d'un prince</h3>
+            <h3 id="target">naissance d'un prince</h3>
             <p>
               T'Challa est né au Wakanda, un pays isolationniste situé en
               Afrique, du monarque régnant T'Chaka et de sa femme Ramonda. Il a
@@ -532,5 +543,9 @@
         </div>
       </div>
     </footer>
+
+    <!-- JS Files -->
+    <!-- <script src="./assets/js/canvas.js"></script> -->
+    <script src="./assets/js/index.js"></script>
   </body>
 </html>

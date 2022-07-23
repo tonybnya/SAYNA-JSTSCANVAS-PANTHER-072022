@@ -23,6 +23,7 @@ nav {
       &:hover {
         transform: scale(1.1);
         color: $color-plum;
+        filter: drop-shadow(0 0 20px red);
       }
       &.active {
         text-decoration: underline;

@@ -23,8 +23,17 @@ body {
     -webkit-filter: brightness(.5);
     filter: brightness(.5);
     transform: scale(1.2);
+    // filter: invert(18%) sepia(82%) saturate(4658%) hue-rotate(355deg) brightness(109%) contrast(112%);
+    filter: drop-shadow(0 0 20px red);
   }
 }
+
+// h1,
+// h3 {
+//   &:hover {
+//     transform: scale(.1);
+//   }
+// }
 
 p {
   text-align: justify;

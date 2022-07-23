@@ -46,37 +46,57 @@
   }
 }
 
+#wrapper-canvas {
+  z-index: 1;
+  position: absolute;
+  // cursor: none;
+  background: $color-black;
+}
+
 #slider {
-  .content {
-    background: $color-smalt;
+  .slider-content {
+    background: $color-midnight-express-1;
     display: flex;
-    .arrow-btn {
-      background: $color-smalt;
-      color: $color-white;
-    }
-    .block {
+    .slide {
       display: flex;
       .personage-img {
         width: 295px;
         height: 341px;
-        &:hover {
-          cursor: pointer;
-          width: 386px;
-          height: 446px;
-        }
+        // &:hover {
+        //   cursor: pointer;
+        //   width: 386px;
+        //   height: 446px;
+        // }
       }
       .text {
         // position: absolute;
-        width: 295px;
+        width: 400px;
         height: 341px;
         padding: 40px;
+        .naming {
+          font-family: 'beyno';
+          color: $color-snuff;
+        }
+        .description {
+          margin: 10px 0;
+          font-family: 'Cantarell';
+        }
       }
     }
-    .naming {
-      font-family: 'beyno';
-    }
-    .description {
-      font-family: 'Cantarell';
+  }
+  .slider-btn {
+    position: relative;
+    right: -90%;
+    background: $color-midnight-express-1;
+    color: $color-white;
+    padding: 20px;
+    font-size: 20px;
+    filter: drop-shadow(0 0 20px $color-black);
+    border-radius: 50%;
+    border: none;
+    &:hover {
+      cursor: pointer;
+      filter: drop-shadow(0 0 20px $color-white);
     }
   }
 }

@@ -36,6 +36,7 @@ body {
 .logo:hover {
   filter: brightness(0.5);
   transform: scale(1.2);
+  filter: drop-shadow(0 0 20px red);
 }
 
 p {
@@ -66,6 +67,7 @@ nav ul a {
 nav ul a:hover {
   transform: scale(1.1);
   color: #DF99F2;
+  filter: drop-shadow(0 0 20px red);
 }
 nav ul a.active {
   text-decoration: underline;
@@ -187,36 +189,50 @@ footer .container .copyright p .fa {
   font-size: 20px;
 }
 
-#slider .content {
-  background: #07338C;
+#wrapper-canvas {
+  z-index: 1;
+  position: absolute;
+  background: #0B0B0B;
+}
+
+#slider .slider-content {
+  background: #021740;
   display: flex;
 }
-#slider .content .arrow-btn {
-  background: #07338C;
-  color: #FFFFFF;
-}
-#slider .content .block {
+#slider .slider-content .slide {
   display: flex;
 }
-#slider .content .block .personage-img {
+#slider .slider-content .slide .personage-img {
   width: 295px;
   height: 341px;
 }
-#slider .content .block .personage-img:hover {
-  cursor: pointer;
-  width: 386px;
-  height: 446px;
-}
-#slider .content .block .text {
-  width: 295px;
+#slider .slider-content .slide .text {
+  width: 400px;
   height: 341px;
   padding: 40px;
 }
-#slider .content .naming {
+#slider .slider-content .slide .text .naming {
   font-family: "beyno";
+  color: #F2CEF2;
 }
-#slider .content .description {
+#slider .slider-content .slide .text .description {
+  margin: 10px 0;
   font-family: "Cantarell";
+}
+#slider .slider-btn {
+  position: relative;
+  right: -90%;
+  background: #021740;
+  color: #FFFFFF;
+  padding: 20px;
+  font-size: 20px;
+  filter: drop-shadow(0 0 20px #0B0B0B);
+  border-radius: 50%;
+  border: none;
+}
+#slider .slider-btn:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 20px #FFFFFF);
 }
 
 #prince {
@@ -420,6 +436,7 @@ body {
 .logo:hover {
   filter: brightness(0.5);
   transform: scale(1.2);
+  filter: drop-shadow(0 0 20px red);
 }
 
 p {
@@ -450,6 +467,7 @@ nav ul a {
 nav ul a:hover {
   transform: scale(1.1);
   color: #DF99F2;
+  filter: drop-shadow(0 0 20px red);
 }
 nav ul a.active {
   text-decoration: underline;
@@ -561,14 +579,19 @@ footer .container .copyright p .fa {
 }
 
 #biography {
-  background-image: url(../img/illustrations_wakanda/Pantherwakanda2.png);
-  background-position: center top;
-  background-repeat: no-repeat;
-  margin-top: 100px;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 #biography .container {
   display: flex;
   justify-content: space-around;
+}
+#biography .container .panther {
+  position: absolute;
+  z-index: -1;
+}
+#biography .container .panther img {
+  width: 100%;
 }
 #biography .container .left,
 #biography .container .right {
@@ -594,7 +617,8 @@ footer .container .copyright p .fa {
   height: 50%;
 }
 #biography .right .poster {
-  text-align: center;
+  text-align: left;
+  z-index: -1;
 }
 #biography .right .poster img {
   width: 649px;
@@ -640,6 +664,7 @@ body {
 .logo:hover {
   filter: brightness(0.5);
   transform: scale(1.2);
+  filter: drop-shadow(0 0 20px red);
 }
 
 p {
@@ -670,6 +695,7 @@ nav ul a {
 nav ul a:hover {
   transform: scale(1.1);
   color: #DF99F2;
+  filter: drop-shadow(0 0 20px red);
 }
 nav ul a.active {
   text-decoration: underline;
