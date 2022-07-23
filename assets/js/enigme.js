@@ -3,11 +3,8 @@ const subtitles = document.querySelectorAll('h3');
 const imgs = document.querySelectorAll('img');
 const paras = document.querySelectorAll('p');
 const navbar = document.querySelector('nav');
-const card = document.querySelector('.card');
-const form = document.querySelector('.form');
 const sitemap = document.querySelector('.sitemap');
 const bars = document.querySelectorAll('.bar');
-const btns = document.querySelectorAll('.btn-more');
 
 const scrollFadeIn = [
   { transform: 'translateX(-1000px) scale(0.1)'},
@@ -39,10 +36,6 @@ window.addEventListener('scroll', () => {
     subtitle.animate(scrollFadeIn, scrollTiming);
   });
 
-  btns.forEach(btn => { 
-    btn.animate(scrollFadeIn, scrollTiming);
-  });
-
   imgs.forEach(img => {
     img.animate(scrollFadeIn, scrollTiming);
   });
@@ -51,7 +44,5 @@ window.addEventListener('scroll', () => {
     para.animate(scrollFadeIn, scrollTiming);
   });
 
-  card.animate(scrollFadeIn, scrollTiming);
-  form.animate(scrollFadeIn, scrollTiming);
   sitemap.animate(scrollFadeIn, scrollTiming);
 });
