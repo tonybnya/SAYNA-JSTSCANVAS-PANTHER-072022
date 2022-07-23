@@ -187,11 +187,141 @@ footer .container .copyright p .fa {
   font-size: 20px;
 }
 
+#slider .content {
+  background: #07338C;
+  display: flex;
+}
+#slider .content .arrow-btn {
+  background: #07338C;
+  color: #FFFFFF;
+}
+#slider .content .block {
+  display: flex;
+}
+#slider .content .block .personage-img {
+  width: 295px;
+  height: 341px;
+}
+#slider .content .block .personage-img:hover {
+  cursor: pointer;
+  width: 386px;
+  height: 446px;
+}
+#slider .content .block .text {
+  width: 295px;
+  height: 341px;
+  padding: 40px;
+}
 #slider .content .naming {
   font-family: "beyno";
 }
 #slider .content .description {
   font-family: "Cantarell";
+}
+
+#prince {
+  margin-top: 100px;
+}
+#prince .container {
+  display: flex;
+  justify-content: space-around;
+}
+#prince .container .story,
+#prince .container .card {
+  font-family: "Cantarell";
+  width: 40%;
+}
+#prince .container .story {
+  font-size: 12px;
+}
+#prince .container .story .part h3 {
+  font-family: "beyno";
+  color: #F2CEF2;
+  margin: 25px 0;
+}
+#prince .container .story .part p {
+  margin-bottom: 10px;
+}
+#prince .container .profile-card {
+  margin-top: 200px;
+}
+#prince .container .card {
+  background: #FFFFFF;
+  position: relative;
+  width: 500px;
+  height: 650px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+#prince .container .card .chadwick {
+  position: absolute;
+  left: 50%;
+  top: -200px;
+  transform: translateX(-50%);
+  width: 374px;
+  height: 527px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#prince .container .card .chadwick img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: drop-shadow(0 0 20px #021740);
+}
+#prince .container .card .chadwick:hover {
+  width: 450px;
+  height: 634px;
+}
+#prince .container .card:hover {
+  height: 750px;
+}
+#prince .container .card .content {
+  position: absolute;
+  color: #021740;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+}
+#prince .container .card .content .details {
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+}
+#prince .container .card .content .details .box-btn button {
+  background: #3D2DA6;
+  color: #FFFFFF;
+  padding: 10px 18px;
+  font-family: "Cantarell";
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+}
+#prince .container .card .content .details .box-description {
+  text-align: justify;
+  margin: 0 18px;
+}
+#prince .container .card .content .details .box-description h4 {
+  padding-top: 5px;
+}
+#prince .container .card .content .details .box-description h4 span {
+  font-weight: 600;
+}
+#prince .container .poster {
+  width: 509px;
+  height: 435px;
+}
+#prince .container .poster:hover {
+  cursor: pointer;
+  width: 692px;
+  height: 591px;
 }
 
 #contact-form {
@@ -430,6 +560,51 @@ footer .container .copyright p .fa {
   margin-bottom: 10px;
 }
 
+#biography {
+  background-image: url(../img/illustrations_wakanda/Pantherwakanda2.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+}
+#biography .container {
+  display: flex;
+  justify-content: space-around;
+}
+#biography .container .left,
+#biography .container .right {
+  width: 40%;
+  font-family: "Cantarell";
+  font-size: 12px;
+}
+#biography .container .left .part h3,
+#biography .container .right .part h3 {
+  font-family: "beyno";
+  color: #F2CEF2;
+  margin: 25px 0;
+}
+#biography .container .left .part p,
+#biography .container .right .part p {
+  margin-bottom: 10px;
+}
+#biography .container .left .part .video,
+#biography .container .right .part .video {
+  position: relative;
+  margin-top: 20px;
+  width: 100%;
+  height: 50%;
+}
+#biography .right .poster {
+  text-align: center;
+}
+#biography .right .poster img {
+  width: 649px;
+  height: 362px;
+}
+#biography .right .poster img:hover {
+  width: 831px;
+  height: 464px;
+}
+
 @font-face {
   font-family: "beyno";
   src: local("Beyno"), url("../fonts/Beyno.woff") format("woff");
@@ -581,7 +756,7 @@ footer .container .copyright p .fa {
   text-align: center;
   position: absolute;
   top: 30%;
-  right: 10%;
+  right: 20%;
   display: flex;
   flex-direction: column;
   width: 40%;
